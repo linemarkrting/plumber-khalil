@@ -14,16 +14,17 @@
 <link rel="canonical" href="https://YOUR_USERNAME.github.io/">
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18349076501"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18441372106"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-18349076501');
+  gtag('config', 'AW-18441372106');
 </script>
 
-<!-- Event snippet for نقرة صادرة إلى الخارج (1) conversion page -->
+<!-- Event snippet for نقرة صادرة إلى الخارج conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
   var callback = function () {
@@ -32,7 +33,7 @@ function gtag_report_conversion(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-18349076501/NXhXCLC78rEdEJXgwq1E',
+      'send_to': 'AW-18441372106/MwjzCOahkLIdEMqDxNlE',
       'event_callback': callback
   });
   return false;
